@@ -12,10 +12,10 @@ $(document).ready(function() {
         console.log(width);
         if (width < 768) {
             $(".slider").removeClass("order-last");
-            $(".navbar").addClass("bg-light");
+
             $(".logo").attr("src", "./images/homepage/logo-black.png");
-            $(".fa-bars").css("color", "#000");
-            $(".nav-item a").css("color", "#000");
+
+
         }
         if (width >= 768) {
             $(".slider").addClass("order-last");
@@ -49,7 +49,7 @@ $(document).ready(function() {
 $(document).on("scroll", function() {
 
 
-    if ($(document).scrollTop() > 10 && $(window).width() >= 768) {
+    if ($(document).scrollTop() > 1 && $(window).width() >= 768) {
 
         $(".navbar").addClass("bg-light");
         $(".logo").attr("src", "./images/homepage/logo-black.png");
@@ -57,7 +57,7 @@ $(document).on("scroll", function() {
         $(".nav-item a").css("color", "#000");
 
     }
-    if ($(document).scrollTop() < 10 && $(window).width() >= 768) {
+    if ($(document).scrollTop() < 1 && $(window).width() >= 768) {
         $(".navbar").removeClass("bg-light");
         $(".logo").attr("src", "./images/homepage/logo.png");
         $(".fa-bars").css("color", "#fff");

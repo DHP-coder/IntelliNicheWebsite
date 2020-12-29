@@ -44,6 +44,21 @@ p {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 25%;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .nav-item a {
+        color: #000!important;
+    }
+    .fa-bars {
+        color: #000!important;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .logo {
         width: 60%;

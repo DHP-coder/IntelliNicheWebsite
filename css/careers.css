@@ -101,11 +101,7 @@ section {
     width: 25%;
 }
 
-@media (max-width:640px) {
-    .image_section img:first-child {
-        display: none;
-    }
-}
+@media (max-width:640px) {}
 
 .bg-career {
     background-image: url(../images/contact/Group\ 162.png);
@@ -179,4 +175,104 @@ section {
     width: 60px;
     height: 60px;
     color: #d40000;
+}
+
+.process-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 575px) {
+    .process-mobile {
+        display: flex;
+    }
+    .image_section img:first-child {
+        display: none;
+    }
+    .process-lg-screen {
+        display: none;
+    }
+}
+
+.img-process {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.img-process img {
+    width: 100%;
+}
+
+#img-1 {
+    position: absolute;
+    width: 5%;
+    bottom: 22%;
+    left: 20%;
+}
+
+#img-2 {
+    position: absolute;
+    width: 5%;
+    bottom: 36%;
+    left: 40%;
+}
+
+#img-3 {
+    position: absolute;
+    width: 5%;
+    bottom: 51%;
+    left: 60%;
+}
+
+#img-4 {
+    position: absolute;
+    width: 5%;
+    bottom: 65%;
+    left: 80%;
+}
+
+.title-img-1 {
+    position: absolute;
+    bottom: 11%;
+    left: 18%;
+}
+
+.title-img-2 {
+    position: absolute;
+    bottom: 25%;
+    left: 37%;
+}
+
+.title-img-3 {
+    position: absolute;
+    bottom: 40%;
+    left: 56%;
+}
+
+.title-img-4 {
+    position: absolute;
+    bottom: 54%;
+    left: 80%;
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .title-img-1 {
+        position: absolute;
+        bottom: -5%;
+        left: 15%;
+    }
+    .title-img-2 {
+        position: absolute;
+        bottom: 12%;
+        left: 34%;
+    }
+    .title-img-3 {
+        position: absolute;
+        bottom: 27%;
+        left: 53%;
+    }
+    .title-img-4 {
+        position: absolute;
+        bottom: 45%;
+        left: 77%;
+    }
 }
