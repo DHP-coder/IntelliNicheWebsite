@@ -57,8 +57,8 @@ section {
 
 /* end menu */
 
-@media screen and (min-width: 2560px) {
-    section {
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    section.top {
         padding: 100px 0px 0px 0px!important;
     }
 }
