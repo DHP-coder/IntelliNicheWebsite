@@ -119,3 +119,10 @@ section {
     text-align: center;
     width: 100vw;
 }
+
+
+/* require contact form */
+
+small {
+    color: red;
+}
